@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/deviceNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/device_name"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/deviceIdListView"
+        android:layout_width="350dp"
+        android:layout_height="146dp" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan For Devices" />
+
+    <!-- 5つの値を表示 -->
+    <TextView
+        android:id="@+id/deviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device ID : -"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/temperature1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature1 : --.--(°C)"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/temperature2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature2 : --.--(°C)"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/temperature3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature3 : --.--(°C)"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/voltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltage : --.--(V)"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/getDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get data"
+        android:enabled="false" />
+</LinearLayout>

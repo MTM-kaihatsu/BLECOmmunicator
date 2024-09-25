@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BLECommunicator</string>
+    <string name="scan_for_devices">Scan for Devices</string>
+    <string name="device_name">Device Name</string>
+</resources>
